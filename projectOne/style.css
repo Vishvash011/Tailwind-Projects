@@ -1,3 +1,236 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media screen and (max-width:1080px) {
+  .firstSecRightImg{
+    display: none;
+  }
+  .dots1{
+    display: none;
+  }
+  .sec6{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sec7{
+    width: 660px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+  }
+  .sec7bar{
+    display: none;
+  }
+  .sec71{
+    width: 320px;
+    height: 380px;
+  }
+  .leftSection{
+    display: none;
+  }
+  .sec8{
+    display: none;
+  }
+  .logoSection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 25px;
+    width: 900px;
+  }
+  .sec14Heading{
+    display: none;
+  }
+  .sec14Image{
+    display: none;
+  }
+  .sec14Line{
+    display: none;
+  }
+  .sec14Cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    
+  }
+}
+
+@media screen and (min-width:1080px) {
+  .sec14Products{
+    display: none;
+  }
+  
+}
+
+
+@media screen and (max-width:900px) {
+  .welcome{
+    display: none;
+  }
+  .nav21{
+    display: none;
+  }
+  .sec2box{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sec31{
+    display: none;
+  }
+  .rating1{
+    display: none;
+  }
+  .hr1{
+    display: none;
+  }
+  .ProductSectionCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  
+  .sec4{
+    display: flex;
+    flex-direction: column;
+  }
+ .sec5 {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+  .sec51 {
+    width: 100%;
+    align-items: center;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .sec5word {
+      font-size: 30px;
+  }
+
+  .button {
+      font-size: 12px;
+      width: auto;
+      height: auto;
+      padding: 10px 20px;
+  }
+
+  .sec5Image {
+      width: 100%;
+      padding-right: 0;
+  }
+    .sec5Image{
+      display: none;
+  }
+  .logoSection{
+    width: 660px;
+  }
+  .signupText{
+    display: none;
+  }
+ 
+}
+
+@media screen and (max-width:660px) {
+  .firstHeader{
+    display:none;
+  } 
+  .nav22{
+    display: none;
+  } 
+  .nav31{
+    display: none;
+  }
+  .nav33{
+    display: none;
+  }
+  .cameraSection{
+    display: flex;
+    flex-direction: column;
+  }
+  .ProductSectionCards{
+    display: flex;
+    flex-direction: column;
+  }
+  .sec411{
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    width: 300px;
+    gap: 50px;
+  }
+  .sec41{
+    height: 520px;
+    width: 300px;
+  }
+  .headphone{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    height: 520px;
+    width: 300px;
+  }
+  .sec7{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .sec71{
+    width: 320px;
+    height: 350px;
+  }
+  .logoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .emailDiv{
+    width: 350px;
+    display: flex;
+  }
+  .footerSection{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+
+
+@media screen and (min-width: 660px) {
+  #bar {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width:400px) {
+  .navbarDiv{
+    display: none;
+  }  
+  .thirdHeading{
+    display: none;
+  }
+  .pc{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sec6{
+
+  }
+  .sec61{
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    width: 180px;
+  }
+  
+}
+
